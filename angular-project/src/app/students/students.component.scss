@@ -1,0 +1,31 @@
+.button-container {
+  margin-bottom: 15px; /* Space between the first line and the View button */ 
+} 
+.btn { 
+background-color: #507fb8; /* Nude blue color */
+color: white;
+border: none;
+padding: 5px 12px; /* Smaller size */
+font-size: 14px; /* Smaller text size */
+display: inline-flex;
+align-items: center;
+justify-content: center;
+border-radius: 4px; /* Slight rounded corners */
+cursor: pointer;
+transition: background-color 0.3s ease, transform 0.3s ease;
+margin-right: 10px; /* Space between buttons */
+}
+.btn i {
+ font-size: 16px; /* Adjust icon size */
+ margin-right: 5px; /* Space between icon and text */
+}
+.btn:hover {
+ background-color: #8fa7c2; /* Slightly darker nude blue on hover */
+ transform: translateY(-2px); /* Slight lift on hover */
+}
+.btn:active {
+ transform: translateY(1px); /* Slight drop on click */
+}
+.no-margin {
+ margin-right: 0 !important; /* Removes margin after the Delete button */
+}
